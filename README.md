@@ -1,6 +1,8 @@
 # XtraStuff
 Now you have more crops to farm
 
+Ran out of crops to farm and exploit for monetary gain in Stardew Valley? With XtraFoods, you can now farm all that you want to your heart's desire!
+
 For the OpenSource Code
 
 Step 1 Open the GitHub link and download the repository
