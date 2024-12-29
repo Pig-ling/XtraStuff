@@ -1,0 +1,65 @@
+{
+	"Name": "Farfalle Pasta",
+	"Description": "Pasta with a unique taste.",
+	"Category": "Cooking",
+  
+	"Edibility": 50, //This will set how much health your recipe will give when consumed. The exact math is a little arcane, and also affects the energy gained.
+	"EdibleIsDrink": true,
+  
+	"EdibleBuffs": {
+					"Farming": 1,
+					"Fishing": 1,
+					"Mining": 1,
+					"Luck": 0,
+					"Foraging": 1,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 1,
+					"Defense": 0,
+					"Attack": 1,
+					"Duration": 120, //The buff will last for 120 seconds (aka 2 minutes)
+  },
+  
+	"Price": 40,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Red Onion",
+								   "Count": 1,
+								},
+								{
+								   "Object": "Olive Oil",
+								   "Count": 2,
+								},
+								{
+								   "Object": "Kale",
+								   "Count": 1,
+								},
+								{
+								   "Object": "Farfalle Noodles",
+								   "Count": 2,
+								},
+
+			      ],
+			   
+			   "IsDefault": "True",
+			   
+			   "CanPurchase": "True",
+			   "PurchaseFrom": "Gus",			   
+			   "PurchasePrice": 150,
+			},
+  
+  "GiftTastes": 
+		{
+		"Love": ["Abigail", "Maru", "Emily", "Leah",],
+		"Like": [ "Caroline", "Elliott", "Jodi", "Robin", "Demetrius", "Penny",],
+		"Neutral": [],
+		"Dislike": [ "Clint",],
+		"Hate": [],	
+		},
+	}

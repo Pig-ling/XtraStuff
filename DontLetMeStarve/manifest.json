@@ -1,0 +1,16 @@
+{
+    "Name": "DontLetMeStarve",
+    "Author": "Pigling",
+    "Version": "1.0.2",
+    "Description": "Stuff for Pigling's Xtra, that could not be included in the regular thing",
+    "UniqueID": "Pigling.DontLetMeStarve",
+    "EntryDll": "DontLetMeStarve.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Curseforge:1084050", "Nexus:28377"],
+    "Dependencies": [
+        {
+            "UniqueID": "Pigling.XtraStuff",
+            "IsRequired": false
+        }
+    ]
+}

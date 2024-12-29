@@ -1,0 +1,11 @@
+{
+    "Name": "XtraStuff",
+    "Author": "Pigling",
+    "Version": "1.0.2",
+    "Description": "Now your stardew characters can do more, farm more, earn More money",
+    "UniqueID": "Pigling.XtraStuff",
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Curseforge:1084050", "Nexus:28377"]
+}

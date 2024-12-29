@@ -1,0 +1,53 @@
+{
+    "Name": "Lime",
+    "Product": "Lime",
+    "SeedName": "Mini Lime tree Sapling",
+	
+    "SeedDescription": "Plant in spring or summer for a mini lime tree. Takes 4 days to mature, and contimues providing limes after first harvest",
+	
+    "Type": "Fruit",
+
+    "Seasons": ["spring", "summer"],
+    "Phases": [ 1, 1, 1, 1 ],
+    "RegrowthPhase": 1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+	
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.0,
+    },
+		
+	"SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 8,
+	"SeedSellPrice": 2,
+"NameLocalization": {
+    // "es": "",
+    // "ko": "",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "スズキ",
+    // "pt": ""
+    // "ru": "",
+    // "tr": "",
+    // "zh": ""
+  },
+  "DescriptionLocalization": {
+    // "es": "",
+    // "ko": "",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "スズキを　釣り上げた！　鈴木…じゃなくて、鱸なのね！",
+    // "pt": ""
+    // "ru": "",
+    // "tr": "",
+    // "zh": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"Name": "Mustard Sauce",
+	"Description": "A sour drink of squished lemons.",
+	"Category": "Cooking",
+  
+	"Edibility": 30, //This will set how much health your recipe will give when consumed. The exact math is a little arcane, and also affects the energy gained.
+	"EdibleIsDrink": true,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 120, //The buff will last for 120 seconds (aka 2 minutes)
+  },
+  
+	"Price": 350,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Mustard",
+								   "Count": 1,
+								},
+								{
+								   "Object": "Beer",
+								   "Count": 1,
+								},
+			      ],
+			   
+			   "IsDefault": "True",
+			   
+			   "CanPurchase": "False",
+			   "PurchaseFrom": "Gus",			   
+			   "PurchasePrice": 150,
+			},
+  
+  "GiftTastes": 
+		{
+		"Love": [ "Alex", "Abigail", "Leah", "Emily", "Maru",],
+		"Like": [ "Caroline", "Elliott", "Jodi", "Robin", "Demetrius", ],
+		"Neutral": [ "Pierre", "Haley", "Kent", "Pam",],
+		"Dislike": [ "Clint", "Penny", ],
+		"Hate": [ "George", "Evelyn", ],	
+		},
+	}

@@ -1,0 +1,56 @@
+{
+	"Name": "Ketchup",
+	"Description": "A condiment for many fried foods.",
+	"Category": "Cooking",
+  
+	"Edibility": 20, //This will set how much health your recipe will give when consumed. The exact math is a little arcane, and also affects the energy gained.
+	"EdibleIsDrink": true,
+  
+	"EdibleBuffs": {
+					"Farming": 0,
+					"Fishing": 0,
+					"Mining": 0,
+					"Luck": 0,
+					"Foraging": 0,
+					"MaxStamina": 0,
+					"MagnetRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 0,
+					"Duration": 120, //The buff will last for 120 seconds (aka 2 minutes)
+  },
+  
+	"Price": 80,
+  
+	"IsColored": false,
+  
+	"Recipe": {
+			  "ResultCount": 1,
+			  
+			  "Ingredients": [
+								{
+								   "Object": "Tomato",
+								   "Count": 2,
+								},
+								{
+								   "Object": "Garlic",
+								   "Count": 1,
+								},
+			      ],
+			   
+			   "IsDefault": "True",
+			   
+			   "CanPurchase": "True",
+			   "PurchaseFrom": "",			   
+			   "PurchasePrice": 0,
+			},
+  
+  "GiftTastes": 
+		{
+		"Love": [],
+		"Like": [],
+		"Neutral": [ "Pierre", "Haley", "Kent", "Pam", "Alex", "Abigail", "Leah", "Emily", "Maru",  "Caroline", "Elliott", "Jodi", "Robin", "Demetrius",],
+		"Dislike": [ "Clint", "Penny", ],
+		"Hate": [ "George", "Evelyn", ],	
+		},
+	}
